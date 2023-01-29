@@ -1,0 +1,7 @@
+id=mGMSCompat
+name=mGMSCompat
+version=1.0
+versionCode=1
+author=pa1nark
+description=Magisk module to add support for sandboxed GMS on Vanilla ROMs that do not have GApps pre-installed.
+updateJson=https://raw.githubusercontent.com/pixincreate/mGMSCompat/main/update.json
