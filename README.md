@@ -16,6 +16,12 @@ I've added `functions.sh` which is based on `mmt-ex` (as of now, for showcase of
 - 1st 2 references added below are not enough to get mGMSCompat working. There're many changes needed to be done to get this working
 - I'm open for suggesstions and inputs from devs in this field because, I don't think this can directly be implemented directly since I need to put my hands into the `frameworks_base` which I don't think is accessible within `root` folder
 
+## Few more thoughts on GMSCompat after using GrapheneOS 
+
+- mGMSCompat requires root access to work while GOS requires the bootloader to be locked to pass the Play Integrity API.
+- I'm not sure whether its the ROM side thing or something different. What I mean by this is that if locking bootloader is necessary after installing GMSCompat, then it defeats the purpose of this project. 
+- Looking forward to learn more things regarding this.
+
 ## For reference
 
 - [VoltageOS/packages_apps_GmsCompat](https://github.com/VoltageOS/packages_apps_GmsCompat)
